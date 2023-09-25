@@ -1,7 +1,5 @@
 
-setwd("/Users/gillianduffalo/Documents/GitHub/crim1200-stat/data")
-
-dat <- read.csv("income.data.csv")
+dat <- read.csv("/Users/gillianduffalo/Documents/GitHub/crim1200-stat/data/income.data.csv")
 dat
 
 
