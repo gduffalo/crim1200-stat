@@ -13,8 +13,12 @@ summary(dat$income) - # the average income is 4.467. the minimum value is 1.506 
 # describe happiness quant
 count(dat$happiness)
   
-tab <- table(dat$happiness)
-summarise(tab)
+table(dat$happiness)
+
 
 # describe education quant
 count(dat$education)
+
+# happiness and income
+ggplot(data = dat, aes(x=income, fill=happiness)) + geom_histogram()
+
